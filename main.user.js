@@ -33,6 +33,7 @@ const SETTINGS = {
 
   // action buttons //
   hideOpenAppButton: true,
+  hideSubscribeButton: false,
 
   /// misc ///
   hideSearchButton: false,
@@ -117,7 +118,8 @@ const MOBILE_BLOCK_LIST = [
 
   // Action buttons
   'html[hideOpenAppButton="true"] .mobile-topbar-header-sign-in-button',
-  
+  'html[hideSubscribeButton="true"] ytm-slim-owner-renderer .slim-owner-subscribe-button.cbox',
+
 ];
 
 // Add CSS to block elements
