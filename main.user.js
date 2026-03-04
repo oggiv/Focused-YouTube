@@ -31,6 +31,9 @@ const SETTINGS = {
   hideShorts: true,
   redirectShortsPlayer: true,
 
+  // comments ///
+  hideComments: false,
+
   // action buttons //
   hideActionBar: false,
   hideOpenAppButton: true,
@@ -116,6 +119,9 @@ const MOBILE_BLOCK_LIST = [
   'html[hideHomepage="true"] ytm-pivot-bar-item-renderer:nth-child(1)',
   'html[hideShorts="true"] ytm-pivot-bar-item-renderer:nth-child(2)',
   'ytm-chip-cloud-chip-renderer[chip-style="STYLE_EXPLORE_LAUNCHER_CHIP"]',
+
+  // Comments
+  'html[hideComments="true"] yt-video-metadata-carousel-view-model',
 
   // Action buttons
   'html[hideActionBar="true"] ytm-single-column-watch-next-results-renderer > ytm-slim-video-metadata-section-renderer > ytm-slim-video-action-bar-renderer',
