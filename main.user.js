@@ -32,6 +32,7 @@ const SETTINGS = {
   redirectShortsPlayer: true,
 
   // action buttons //
+  hideActionBar: false,
   hideOpenAppButton: true,
   hideSubscribeButton: false,
 
@@ -117,6 +118,7 @@ const MOBILE_BLOCK_LIST = [
   'ytm-chip-cloud-chip-renderer[chip-style="STYLE_EXPLORE_LAUNCHER_CHIP"]',
 
   // Action buttons
+  'html[hideActionBar="true"] ytm-single-column-watch-next-results-renderer > ytm-slim-video-metadata-section-renderer > ytm-slim-video-action-bar-renderer',
   'html[hideOpenAppButton="true"] .mobile-topbar-header-sign-in-button',
   'html[hideSubscribeButton="true"] ytm-slim-owner-renderer .slim-owner-subscribe-button.cbox',
 
