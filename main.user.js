@@ -31,6 +31,9 @@ const SETTINGS = {
   hideShorts: true,
   redirectShortsPlayer: true,
 
+  // action buttons //
+  hideOpenAppButton: true,
+
   /// misc ///
   hideSearchButton: false,
   cleanSearchResults: true,
@@ -111,6 +114,10 @@ const MOBILE_BLOCK_LIST = [
   'html[hideHomepage="true"] ytm-pivot-bar-item-renderer:nth-child(1)',
   'html[hideShorts="true"] ytm-pivot-bar-item-renderer:nth-child(2)',
   'ytm-chip-cloud-chip-renderer[chip-style="STYLE_EXPLORE_LAUNCHER_CHIP"]',
+
+  // Action buttons
+  'html[hideOpenAppButton="true"] .mobile-topbar-header-sign-in-button',
+  
 ];
 
 // Add CSS to block elements
